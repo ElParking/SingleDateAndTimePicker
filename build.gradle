@@ -1,6 +1,4 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
-apply(plugin = "com.jfrog.bintray")
-
 buildscript {
     repositories {
         jcenter()
@@ -39,3 +37,5 @@ ext {
     libraryVersion = "2.2.8"
     libraryDescription = 'SingleDateAndTimePicker'
 }
+
+apply(plugin = "com.jfrog.bintray")
