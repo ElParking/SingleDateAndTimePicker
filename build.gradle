@@ -18,7 +18,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.google.com' }
     }
 }
 
@@ -28,7 +28,7 @@ ext {
 
     github = 'https://github.com/ElParking/SingleDateAndTimePicker'
 
-    libraryGroup = 'com.github.ElParking'
+    libraryGroup = 'com.github.florent37'
     libraryName = 'singledateandtimepicker'
     libraryVersion = "2.2.8"
     libraryDescription = 'SingleDateAndTimePicker'
