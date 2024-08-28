@@ -3,6 +3,9 @@ apply(plugin = "com.jfrog.bintray")
 
 buildscript {
     repositories {
+        jcenter()
+        google()
+        mavenCentral()
         maven { url "https://jitpack.io"  }
     }
     dependencies {
@@ -16,6 +19,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         maven { url "https://jitpack.io"  }
     }
 }
