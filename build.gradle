@@ -37,5 +37,3 @@ ext {
     libraryVersion = "2.2.8"
     libraryDescription = 'SingleDateAndTimePicker'
 }
-
-apply(plugin = "com.jfrog.bintray")
